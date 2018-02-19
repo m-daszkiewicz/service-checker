@@ -1,6 +1,8 @@
 #!/bin/bash
 
-# MD -- checker wszystkiego, co zostanie podane jako parametr $1
+# check service status and restart if necessary
+
+# usage: $0 <service name>
 
 DATA=$(date "+%F %T:")
 HOST=$(hostname)
